@@ -1,0 +1,76 @@
+.center {
+  background-color: black;
+}
+.box {
+  background-color: rgb(24, 24, 24);
+  text-align: center;
+  color: white;
+  width: 35%;
+  margin: 50px;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 7px;
+  border-radius: 10px;
+  outline: none;
+  background-color: #2b2b2b;
+  border: none;
+  color: white;
+}
+input[type="radio"] {
+  width: 10px;
+  height: 10px;
+  transform: scale(1.5);
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 3px dotted #ccc;
+  margin-left: 5px;
+  padding: 20px 12px;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gender {
+  background-color: #2b2b2b;
+}
+.dop-input {
+  width: 100%;
+}
+button {
+  font-size: 20px;
+  width: 100%;
+  font-weight: 500;
+  transition: ease 0.5s;
+}
+button:hover {
+  background-color: transparent;
+  color: aqua;
+}
+@media (max-width: 768px) {
+  .box {
+    min-width: 80%;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+}
+.preview-image {
+  max-width: 100%;
+  max-height: 300px;
+  margin-top: 10px;
+  border-radius: 20px;
+}

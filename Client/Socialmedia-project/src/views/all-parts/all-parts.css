@@ -1,0 +1,22 @@
+.container{
+  padding: 50px;
+  gap: 50px;
+}
+.friend{
+  margin-top: 40px;
+}
+@media (max-width:1000px){
+  .main{
+    padding: 7px;
+    margin: 10px;
+  }
+  .friend{
+    margin-top: 0px;
+  }
+  .container{
+    padding: 0px;
+    gap: 0px;
+  }
+}
+
+

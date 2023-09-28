@@ -1,0 +1,26 @@
+img{
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-card {
+    background-color: #131313;
+    color: rgba(255, 255, 255, 0.779);
+    border-radius: 20px;
+}
+i{
+    font-size: 20px;
+    cursor: pointer;
+}
+h5{
+    text-transform: capitalize;
+}
+@media(max-width:1000px){
+    .profile-card{
+        display: none !important;
+    }
+}
+
+
